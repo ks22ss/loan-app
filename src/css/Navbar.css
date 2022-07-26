@@ -37,18 +37,8 @@
 @media only screen and (min-width: 768px) {
     .navLink {
         margin-right: 1rem;
-        padding: 1rem 1rem;
-        text-decoration: none;
-        background-color: greenyellow;
-        color: black;
-        border-radius: 0.5rem;
-        box-shadow: 0.2rem 0.2rem 0.3rem gray;
     }
 
-    .navLink:hover{
-        background-color: darkgreen;
-        color: white;
-    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -74,23 +64,13 @@
 
     .nav-list-Link {
         margin-right: 1rem;
-        padding: 1rem 1rem;
-        text-decoration: none;
-        background-color: greenyellow;
-        color: black;
-        border-radius: 0.5rem;
-        box-shadow: 0.2rem 0.2rem 0.3rem gray;
         margin-bottom: 1rem;
     }
 
-    .nav-list-Link:hover {
-        background-color: darkgreen;
-        color: white;
-    }
-
+    /*
     .nav-sandwish:hover + .nav-list, .nav-list:hover {
         right:0;
-    }
+    }*/
 
     .show {
         right:0;

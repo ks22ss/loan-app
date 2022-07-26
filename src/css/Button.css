@@ -1,0 +1,16 @@
+.default-button {
+    padding: 1rem 1rem;
+    text-decoration: none;
+    background-color: greenyellow;
+    color: black;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.2rem 0.3rem gray;
+    border: none;
+    max-width: 10rem;
+    cursor: pointer;
+}
+
+.default-button:hover {
+    background-color: darkgreen;
+    color: white;
+}

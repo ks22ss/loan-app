@@ -7,7 +7,7 @@ import {
 import Home from './routes/Home'
 import LoanRequest from './routes/LoanRequest'
 import MortgageCalculator from './routes/MortgageCalculator'
-import PersonalLoanCalculator from './routes/PersonalLoanCalculator'
+import Thankyou from './routes/Thankyou';
 import Navbar from './components/Navbar';
 
 
@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/loan-request" element={<LoanRequest />} />
           <Route path="/mortgage-calculator" element={<MortgageCalculator />} />
-          <Route path="/personal-loan-calculator" element={<PersonalLoanCalculator />} />
+          <Route path="/thank-you" element={<Thankyou />} />
     </Routes>
   </BrowserRouter>
   );

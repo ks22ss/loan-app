@@ -1,0 +1,68 @@
+.calculator {
+    margin-top: 1rem;
+    box-shadow: 0rem 0rem 1.2rem gray;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1rem 1rem;
+}
+
+.form-item-label {
+    font-size: 1rem;
+    min-width: 8rem;
+}
+
+.form-item-input {
+    min-width: 6rem;
+    font-size: 1rem;
+    height: 1.2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.form-item-input:focus {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.result-table {
+    margin-top: 1rem;
+    border-spacing: 0px;
+}
+td {
+    text-align: center;
+    padding: 0.5rem 0rem;
+    max-width: 5rem;
+}
+tr {
+    height: 2rem;
+}
+thead > tr > td {
+    border-bottom: 0.1rem solid black;
+}
+thead > tr > td:first-child {
+    border-right: 0.1rem solid black;
+}
+
+tbody > tr > td:first-child {
+    border-right: 0.1rem solid black;
+}
+
+.reset {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

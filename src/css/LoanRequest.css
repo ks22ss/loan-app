@@ -1,0 +1,64 @@
+.loanForm {
+
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 'principle principle period' 'phone name .' 'gender . .'  'address address address' 'purpose purpose purpose' 'status status status' 'submit . .';
+}
+
+@media only screen and (max-width: 768px) { 
+    .loanForm {
+        display: grid;
+        gap: 8px;
+        grid-template-areas: 'principle' 'period' 'phone' 'name' 'gender'  'address' 'purpose' 'status' 'submit';
+    }
+
+}
+
+
+.loanFormInputGroup {
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+    margin-bottom: 1rem;
+}  
+.loanFormInputGroup > input {
+    font-size: 1rem;
+    flex-grow: 1;
+}
+
+.loanFormInputGroup-principle {
+    grid-area: principle;
+  }
+.loanFormInputGroup-phone {
+    grid-area: phone;
+}
+.loanFormInputGroup-name {
+    grid-area: name;
+}
+.loanFormInputGroup-gender {
+    grid-area: gender;
+}
+.loanFormInputGroup-address {
+    grid-area: address;
+}
+.loanFormInputGroup-status {
+    grid-area: status;
+    flex-direction: row;
+}
+.loanFormInputGroup-purpose {
+    grid-area: purpose;
+}
+.loanFormInputGroup-period {
+    grid-area: period;
+}
+
+.loanFormInputGroup-submit {
+    grid-area: submit;
+    margin-bottom: 3rem;
+}
+
+#request-form-status {
+    float:left;
+    flex-grow: 0;
+    margin: 0;
+}
