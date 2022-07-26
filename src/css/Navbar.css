@@ -5,20 +5,6 @@
     margin: 1rem 0rem;
 }
 
-.navLink {
-    margin-right: 1rem;
-    padding: 1rem 1rem;
-    text-decoration: none;
-    background-color: greenyellow;
-    color: black;
-    border-radius: 0.5rem;
-    box-shadow: 0.2rem 0.2rem 0.3rem gray;
-}
-
-.navLink:hover{
-    background-color: darkgreen;
-    color: white;
-}
 
 .navbarIcon {
     width: 10rem;
@@ -32,4 +18,85 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav-sandwish {
+    display: none;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.nav-list {
+    display: none;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .navLink {
+        margin-right: 1rem;
+        padding: 1rem 1rem;
+        text-decoration: none;
+        background-color: greenyellow;
+        color: black;
+        border-radius: 0.5rem;
+        box-shadow: 0.2rem 0.2rem 0.3rem gray;
+    }
+
+    .navLink:hover{
+        background-color: darkgreen;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-sandwish {
+        display:block;
+        z-index: 10;
+    }
+    .navLink {
+        display: none;
+    }
+
+    .nav-list {
+        position: absolute;
+        right:calc(30px - 100%);
+        top: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition:0.4s;
+        -webkit-transition:0.4s;
+        -moz-transition:0.4s;
+    } 
+
+    .nav-list-Link {
+        margin-right: 1rem;
+        padding: 1rem 1rem;
+        text-decoration: none;
+        background-color: greenyellow;
+        color: black;
+        border-radius: 0.5rem;
+        box-shadow: 0.2rem 0.2rem 0.3rem gray;
+        margin-bottom: 1rem;
+    }
+
+    .nav-list-Link:hover {
+        background-color: darkgreen;
+        color: white;
+    }
+
+    .nav-sandwish:hover + .nav-list, .nav-list:hover {
+        right:0;
+    }
+
+    .show {
+        right:0;
+    }
+
+
+
+    
 }
