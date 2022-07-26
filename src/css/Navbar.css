@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem 0rem;
+}
+
+.navLink {
+    margin-right: 1rem;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    background-color: greenyellow;
+    color: black;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.2rem 0.3rem gray;
+}
+
+.navLink:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+.navbarIcon {
+    width: 10rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+
+.navWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
