@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.footer-content-box {
+    width: 50%;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-box > img {
+    width: 2rem;
+    height: 2rem;
+}
