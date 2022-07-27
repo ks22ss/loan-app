@@ -1,0 +1,52 @@
+.welcomeSession {
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/homebackground.jpg") ;
+    background-size: cover;
+}
+
+.welcomeSession::before {
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: flex;
+    height: 35rem;
+    position: absolute;
+    width: 100%;
+}
+
+.welcomeTitle {
+    color: white;
+    font-size: 2rem;
+    z-index: 2;
+    margin: 0 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.home-button {
+    box-shadow: none !important;
+}
+
+.chartTitle {
+    text-align: center;
+}
+
+.loanTotalSession {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+}
+
+.loanTotalSessionContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

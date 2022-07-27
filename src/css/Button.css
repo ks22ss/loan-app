@@ -7,7 +7,11 @@
     box-shadow: 0.2rem 0.2rem 0.3rem gray;
     border: none;
     max-width: 10rem;
+    min-width: 6rem;
+    text-align: center;
     cursor: pointer;
+    z-index: 2;
+    font-size: 1rem;
 }
 
 .default-button:hover {
