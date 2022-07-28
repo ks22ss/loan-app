@@ -58,7 +58,7 @@
     grid-template-areas: "item1 item2 item3";
 }
 
-@media only screen and (max-width: 1024px) { 
+@media only screen and (max-width: 768px) { 
     .listContainer {
         display: grid;
         gap: 8px;

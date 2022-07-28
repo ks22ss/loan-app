@@ -3,7 +3,6 @@ import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, LabelList, Tooltip } 
 import {chartData} from "../data/chartData"
 import "../css/Button.css"
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
 import Card from "../components/Card";
 import clock from "../assets/icons8-clock-240.png"
 import done from "../assets/icons8-done-240.png"
